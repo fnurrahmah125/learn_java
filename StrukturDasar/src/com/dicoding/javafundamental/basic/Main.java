@@ -18,5 +18,9 @@ public class Main {
         System.out.println("Hari ini = " + today);
         Date tomorrow = DateUtils.addDays(today, 1);
         System.out.println("Besok = " + tomorrow);
+
+        char[] dicodingChars = { 'd', 'i', 'c', 'o', 'd', 'i', 'n', 'g' };
+        String dicodingString = new String(dicodingChars);
+        System.out.println(dicodingString);
     }
 }
